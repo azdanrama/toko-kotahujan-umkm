@@ -151,7 +151,7 @@
      height: 32px;
      text-align: center;
      line-height: 5px;
-     background: #b0b435;
+     background: #006BE8;
      color: #ffffff;
      cursor: pointer;
      border: 0;
@@ -378,7 +378,7 @@
          border-bottom: solid 1px #bbb;
     }
      nav.navbar.navbar-inverse.bootsnav.navbar-transparent.dark, nav.navbar.bootsnav.navbar-transparent.dark{
-         background-color: rgba(0,0,0,0.3);
+         background-color: rgba(151, 72, 72, 0.3);
          border-bottom: solid 1px #555;
     }
      nav.navbar.bootsnav.navbar-transparent.white .attr-nav{
@@ -446,7 +446,7 @@
      color: #eee;
 }
  nav.navbar.navbar-inverse ul.nav > li.dropdown > a{
-     background-color: #222;
+     background-color: #ffffff;
 }
  nav.navbar.navbar-inverse li.dropdown ul.dropdown-menu > li > a{
      color: #999;
@@ -739,8 +739,8 @@
 }
 /*------------------------------------------------------------------ Slider -------------------------------------------------------------------*/
  .cover-slides{
-     height: 650px;
-     width: 1600px;
+     height: 550px;
+     width: 1360px;
 }
  .slides-navigation a {
      background: #006BE8;
@@ -759,10 +759,11 @@
      font-size: 40px;
 }
  .slides-navigation a:hover {
-     background: #000000;
+     background: #b0b435;
 }
  .cover-slides .container{
-     height: 100%;
+     height: fixed;
+     width: fixed;
      position: relative;
      z-index: 2;
 }
@@ -788,11 +789,12 @@
 }
  .slides-pagination a{
      border: 2px solid #ffffff;
+     margin-bottom: 10px;
 	 border-radius: 6px;
 }
  .slides-pagination a.current{
-     background: #b0b435;
-     border: 2px solid #b0b435;
+     background: #006BE8;
+     border: 2px solid #006BE8;
 }
  .cover-slides p a{
      font-size: 24px;
@@ -812,14 +814,11 @@
      overflow: hidden;
      border: 0px solid #000000;
 	 box-shadow: 9px 9px 30px 0px rgba(0, 0, 0, 0.3);
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease-in-out 0s;
+	/* -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease-in-out 0s; */
 }
  .shop-cat-box img{
      margin: -10px 0 0 -10px;
-     max-width: none;
-     width: -webkit-calc(100% + 10px);
-     width: calc(100% + 10px);
      opacity: 0.9;
      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
      transition: opacity 0.35s, transform 0.35s;
@@ -849,7 +848,7 @@
 }
 
 .box-add-products{
-	padding: 70px 0px;
+	padding: 20 0px;
 	background-color: #f4f4f4;
 }
 
@@ -1376,6 +1375,7 @@
 
  .footer-link{
 }
+
  .footer-link h4{
      color: #ffffff;
      font-size: 16px;
@@ -1495,7 +1495,7 @@
 }
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
-     background: url("../images/all-bg-title.jpg") no-repeat center center;
+     background: url("../images/sampull-01.png") no-repeat center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -ms-background-size: cover;
