@@ -743,8 +743,8 @@
 }
 /*------------------------------------------------------------------ Slider -------------------------------------------------------------------*/
 .cover-slides{
-    height: 530px;
-    width: 1350px;
+    height: 535px;
+    width: auto;
     object-fit: fill;
 }
 .slides-navigation a {
@@ -2506,7 +2506,7 @@
      font-size: 24px;
 }
  .single-product-details h5 {
-     color: #b0b435;
+     color: #00D812;
      font-weight: 700;
      font-size: 18px;
 }
